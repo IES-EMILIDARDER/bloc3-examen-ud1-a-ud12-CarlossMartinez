@@ -35,6 +35,15 @@ class Vehicle {
         return preu;
     }
 
+    public void setPreu(double preu) {
+        this.preu = preu;
+    }
+
+    @Override
+    public String toString() {
+        return "Vehicle{" + "matricula=" + matricula + ", marca=" + marca + ", model=" + model + ", any=" + any + ", preu=" + preu + '}';
+    }
+
    
 
 }
